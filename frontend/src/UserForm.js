@@ -40,7 +40,7 @@ const UserForm = props => {
                     id="id"
                     name="id"
                     sx={{width:'400px'}}
-                    value={'id'}
+                    value={id}
                     onChange={e =>setId(e.target.value)}
                 />
                 
@@ -66,7 +66,7 @@ const UserForm = props => {
                     id="name"
                     name="name"
                     sx={{width:'400px'}}
-                    value={'name'}
+                    value={name}
                     onChange={e =>setName(e.target.value)}
                 />
                 
@@ -76,13 +76,13 @@ const UserForm = props => {
                 sx={{
                     margin:'auto',
                     marginBottom:'20px',
-                    backgroundColor:'#ooc6e6',
+                    backgroundColor:'#00c6e6',
                     colour:'#000000',
                     marginLeft: '15px',
                     marginTop: '20px',
                     '&:hover':{
                         opacity: '0.7',
-                        backgroundColor: '#ooc6e6'
+                        backgroundColor: '#00c6e6'
                     }
 
                 }}
